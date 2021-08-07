@@ -26,7 +26,7 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 nav {
@@ -169,6 +169,17 @@ a:active {
 .post-img {
   width: 100%;
   height: auto;
+}
+
+nav a:link {
+  /* background-color: orangered; */
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
 }
 
 /* Resolving conflicts */
