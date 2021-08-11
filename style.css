@@ -201,7 +201,7 @@ h1::first-letter {
 }
 
 h3 + p::first-line {
-  color: red;
+  /* color: red; */
 }
 
 h2::after {
